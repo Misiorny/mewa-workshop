@@ -1,12 +1,11 @@
-import Workshop                from './workshop';
-import { Button }              from '@ems/common-ui';
+import Workshop                 from './workshop';
+import { Button, LabeledInput } from '@ems/common-ui';
 
-
-export function App() {
+export function App () {
   return (
     <div>
       <Workshop>
-        <Button bgColor="black" color="white" label="Click me"/>
+        <LabeledInput />
       </Workshop>
     </div>
   );

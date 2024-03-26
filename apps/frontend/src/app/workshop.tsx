@@ -6,7 +6,7 @@ interface WorkshopProps {
 
 export function Workshop ({ children }: WorkshopProps) {
   return (
-    <section className="flex max-w-screen-2xl mx-auto bg-amber-100 h-screen justify-center">
+    <section className="flex max-w-screen-2xl mx-auto bg-amber-100  justify-evenly">
       {children}
     </section>
   );

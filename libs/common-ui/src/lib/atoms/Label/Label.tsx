@@ -5,5 +5,5 @@ interface LabelProps {
 }
 
 export const Label=({htmlFor, labelTxt}:LabelProps)=>{
-  return <label htmlFor={htmlFor}>{labelTxt}</label>
+  return <label htmlFor={htmlFor} className="px-2 py-1">{labelTxt}</label>
 }
