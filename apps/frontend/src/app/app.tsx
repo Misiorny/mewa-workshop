@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import Workshop                from './workshop';
 import { Button }              from '@ems/common-ui';
 
