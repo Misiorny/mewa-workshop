@@ -1,5 +1,5 @@
 import Workshop                 from './workshop';
-import { Button, LabeledInput } from '@ems/common-ui';
+import { LabeledInput } from '@ems/common-ui';
 
 export function App () {
   return (
