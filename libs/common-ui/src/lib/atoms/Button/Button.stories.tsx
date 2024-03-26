@@ -3,9 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from './Button';
 
 const meta = {
-  title: 'UI/Atoms/Button',
-  component: Button,
-  tags: ['autodocs'],
+  title: 'UI/Atoms/Button', component: Button, tags: ['autodocs']
 } satisfies Meta<typeof Button>;
 
 export default meta;
@@ -14,22 +12,18 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    label: 'Hello',
-  },
+    label: 'Hello', bgColor: 'white', color: 'black'
+  }
 };
 
 export const Primary: Story = {
   args: {
-    label: 'Hello',
-    bgColor: 'amethyst',
-    color: 'emerald',
-  },
+    label: 'Hello', bgColor: 'amethyst', color: 'emerald'
+  }
 };
 
 export const Secondary: Story = {
   args: {
-    label: 'Hello',
-    bgColor: 'peter-river',
-    color: 'amethyst',
-  },
+    label: 'Hello', bgColor: 'peter-river', color: 'amethyst'
+  }
 };

@@ -1,10 +1,12 @@
-import { useEffect, useState } from 'react';
-import NxWelcome from './nx-welcome';
+import Workshop                 from './workshop';
+import { LabeledInput } from '@ems/common-ui';
 
-export function App() {
+export function App () {
   return (
     <div>
-      <NxWelcome title="greetings" />
+      <Workshop>
+        <LabeledInput />
+      </Workshop>
     </div>
   );
 }
