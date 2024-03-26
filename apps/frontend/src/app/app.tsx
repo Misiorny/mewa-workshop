@@ -5,7 +5,7 @@ export function App() {
   return (
     <div>
       <Workshop>
-        <Button label="Click me"/>
+        <Button bgColor="black" color="white" label="Click me"/>
       </Workshop>
     </div>
   );
