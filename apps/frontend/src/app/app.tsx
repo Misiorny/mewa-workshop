@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react';
-import NxWelcome from './nx-welcome';
+import Workshop                from './workshop';
+import { Button }              from '@ems/common-ui';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="greetings" />
+      <Workshop>
+        <Button label="Click me"/>
+      </Workshop>
     </div>
   );
 }
